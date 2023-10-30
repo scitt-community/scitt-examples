@@ -1,4 +1,6 @@
-## Replicate Example
+## Python Example
+
+Based on https://replicate.com/blog/run-latent-consistency-model-on-mac
 
 Set up a virtualenv to install the dependencies:
 
@@ -17,8 +19,8 @@ Then, install the dependencies:
 
 ```sh
 python main.py \
-  "a beautiful apple floating in outer space, like a planet" \
-  --steps 4 --width 512 --height 512
+  "A paper certificate, with a blue ribbon and gold star" \
+  --steps 40 --width 512 --height 512
 ```
 
 ### Create the SBOM
@@ -28,11 +30,19 @@ pip install cyclonedx-bom
 ```
 
 ```sh
-cyclonedx-py -e --output artifact.xml
+cyclonedx-py -e --output artifact.manifest.cyclonedx.xml
 ```
 
 ### Make Transparent SBOM
 
 ```sh
 ./script.sh
+```
+
+### Clean up
+
+Remove everything that was created during this process:
+
+```sh
+./clean.sh
 ```
