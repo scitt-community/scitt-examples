@@ -21,10 +21,13 @@ python main.py \
   --steps 4 --width 512 --height 512
 ```
 
-### Create the CBOM
+### Create the SBOM
 
 ```sh
 pip install cyclonedx-bom
+```
+
+```sh
 cyclonedx-py -e --output artifact.xml
 ```
 

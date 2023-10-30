@@ -1,2 +1,5 @@
 private-*
 *.sqlite
+
+*.spdx.json
+*.cbor

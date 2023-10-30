@@ -1,0 +1,1 @@
+rm artifact.manifest.spdx.json *.cbor *.sqlite
