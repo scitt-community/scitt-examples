@@ -1,0 +1,22 @@
+{
+  "name": "scitt-nodejs-example",
+  "version": "0.0.0",
+  "description": "A nodejs example",
+  "main": "artifact.js",
+  "scripts": {
+    "test": "node artifact.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scitt-community/scitt-examples.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Orie Steele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scitt-community/scitt-examples/issues"
+  },
+  "homepage": "https://github.com/scitt-community/scitt-examples#readme"
+}
