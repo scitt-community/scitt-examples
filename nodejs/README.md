@@ -15,6 +15,13 @@ rm -rf ./_manifest
 
 ### Make Transparent SBOM
 
+You will need a CLI that can produce and consume SCITT transparent statements.
+This one supports RFC9162 and SQLite, and is 🚧 EXPERIMENTAL 🚧.
+
+```sh
+npm i -g @transmute/cli
+```
+
 ```sh
 ./script.sh
 ```
