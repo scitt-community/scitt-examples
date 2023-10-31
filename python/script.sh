@@ -32,7 +32,7 @@ transmute scitt ledger receipt issue \
 --issuer-key private-key.cbor \
 --signed-statement  artifact.manifest.cyclonedx.xml.cbor \
 --transparent-statement artifact.manifest.cyclonedx.xml.cbor \
---ledger ledger.sqlite
+--ledger ledger.json
 
 transmute scitt transparent statement verify \
 --issuer-key public-key.cbor \
