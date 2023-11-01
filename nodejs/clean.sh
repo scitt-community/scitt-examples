@@ -1,1 +1,1 @@
-rm artifact.manifest.spdx.json *.cbor *.sqlite
+rm artifact.manifest.spdx.json *.cbor ledger.json

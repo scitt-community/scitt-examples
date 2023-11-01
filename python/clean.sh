@@ -1,1 +1,1 @@
-rm artifact.manifest.cyclonedx.xml *.cbor *.sqlite
+rm artifact.manifest.cyclonedx.xml *.cbor ledger.json
