@@ -1,0 +1,10 @@
+venv
+*.png
+output/
+
+private-*
+*.sqlite
+
+*.cbor
+
+*.xml

@@ -1,3 +1,5 @@
+
+
 # SCITT Examples
 
 A collection of use case oriented examples for implementing the [IETF SCITT](https://scitt.io) drafts
@@ -11,3 +13,11 @@ A collection of use cases, with examples
 ## [Use Case 1](./use-case-1-examples/README.md)
 
 TODO: Template to model after [cose-wg/Examples](https://github.com/cose-wg/Examples/)
+
+### Generating and Signing an SPDX SBOM
+
+- [nodejs](./nodejs)
+
+### Generating and Signing a CycloneDX SBOM
+
+- [python](./python)
