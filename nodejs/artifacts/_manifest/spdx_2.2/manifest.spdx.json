@@ -1,0 +1,123 @@
+{
+  "files": [
+    {
+      "fileName": "./package.json",
+      "SPDXID": "SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb97d8cc1e12227be8e5b7c64d47b71fab407a3820871da25825e734b6ae97d7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ee24e0660e30c48d31317534400ccfbc149cb75"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./artifact.js",
+      "SPDXID": "SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a3286fb4866f9e48920b6c66090427d0de2db1e79ac2e37a21d29c9518e7c46"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "86e48231f3a466d588bedf5162e4d6ff7b8c0251"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./artifact.manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--artifact.manifest.spdx.json-1920280085E0DF0A8C423C0C511F2A4645570339",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9e66b368ec7bdb7610ecf50d2b1aaf33e19d8c03b4cef55dc1a02a2bfc8b962"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1920280085e0df0a8c423c0c511f2a4645570339"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "scitt-nodejs-example",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9de7767570b8fae6460f63360de57bdd782202c3"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "0.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/scitt-community/spdx.org/scitt-nodejs-example@0.0.0?tag_id=a80e7453-ff52-451f-8a84-f6b096421443"
+        }
+      ],
+      "supplier": "Organization: scitt-community",
+      "hasFiles": [
+        "SPDXRef-File--artifact.manifest.spdx.json-1920280085E0DF0A8C423C0C511F2A4645570339",
+        "SPDXRef-File--artifact.js-86E48231F3A466D588BEDF5162E4D6FF7B8C0251",
+        "SPDXRef-File--package.json-8EE24E0660E30C48D31317534400CCFBC149CB75"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DESCRIBED_BY",
+      "relatedSpdxElement": "SPDXRef-DOCUMENT",
+      "spdxElementId": "SPDXRef-File--artifact.manifest.spdx.json-1920280085E0DF0A8C423C0C511F2A4645570339"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "scitt-nodejs-example 0.0.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-1.7.1-6dd50c08-a3fd-4b56-b5cc-1cbc21cf4148/scitt-nodejs-example/0.0.0/ur7hbsco9Ui9PLhK7gP5rg",
+  "creationInfo": {
+    "created": "2023-11-15T18:15:58Z",
+    "creators": [
+      "Organization: scitt-community",
+      "Tool: Microsoft.SBOMTool-1.7.1"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
