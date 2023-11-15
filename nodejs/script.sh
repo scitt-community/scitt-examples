@@ -10,7 +10,7 @@ transmute scitt key export \
 
 transmute scitt key diagnose \
 --input  public-key.cbor \
---output artifacts/_manifest/spdx_2.2/manifest.spdx.json.issuer.public-key.cbor.md
+--output artifacts/_manifest/manifest.spdx.json.issuer.public-key.cbor.md
 
 transmute scitt statement issue \
 --iss urn:example:123 \
@@ -21,7 +21,7 @@ transmute scitt statement issue \
 
 transmute scitt statement diagnose \
 --input  artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor \
---output artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor.without-transparency.md
+--output artifacts/_manifest/manifest.spdx.json.cbor.without-transparency.md
 
 transmute scitt statement verify \
 --issuer-key public-key.cbor \
@@ -44,4 +44,4 @@ transmute scitt transparent statement verify \
 
 transmute scitt statement diagnose \
 --input  artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor \
---output artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor.with-transparency.md
+--output artifacts/_manifest/manifest.spdx.json.cbor.with-transparency.md
