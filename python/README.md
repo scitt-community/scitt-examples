@@ -17,6 +17,20 @@ Then, install the dependencies:
 
     pip install -r requirements.txt
 
+
+You will need a CLI that can produce and consume SCITT transparent statements.
+This one supports RFC9162 and json, and is 🚧 EXPERIMENTAL 🚧.
+
+```sh
+npm i -g @transmute/cli
+```
+
+```sh
+pip install cyclonedx-bom
+```
+
+### Generating images of certificates with AI
+
 ```sh
 python main.py \
   "A paper certificate, with a blue ribbon and gold star" \
@@ -25,31 +39,16 @@ python main.py \
 
 ### Create the SBOM
 
-```sh
-pip install cyclonedx-bom
-```
+Create a cyclonedx sbom in xml format.
 
 ```sh
-cyclonedx-py -e --output artifact.manifest.cyclonedx.xml
+cyclonedx-py -i  artifacts/requirements.txt -r --output artifacts/cyclonedx.xml
 ```
 
 ### Make Transparent SBOM
 
-You will need a CLI that can produce and consume SCITT transparent statements.
-This one supports RFC9162 and SQLite, and is 🚧 EXPERIMENTAL 🚧.
-
-```sh
-npm i -g @transmute/cli
-```
+Sign the sbom, register the signature, attach the receipt to the signature, produce a transparent statement.
 
 ```sh
 ./script.sh
-```
-
-### Clean up
-
-Remove everything that was created during this process:
-
-```sh
-./clean.sh
 ```
