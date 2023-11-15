@@ -34,7 +34,7 @@ transmute scitt ledger receipt issue \
 --issuer-key private-key.cbor \
 --signed-statement  artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor \
 --transparent-statement artifacts/_manifest/spdx_2.2/manifest.spdx.json.cbor \
---ledger ledger.json
+--ledger artifacts/_manifest/ledger.json
 
 transmute scitt transparent statement verify \
 --issuer-key public-key.cbor \
