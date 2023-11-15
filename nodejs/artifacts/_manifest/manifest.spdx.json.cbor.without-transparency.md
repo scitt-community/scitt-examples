@@ -3,8 +3,8 @@
     [
       h'a4013822...3a343536',       / Protected                     /
       {},                           / Unprotected                   /
-      h'',                          / Detached payload              /
-      h'7d1f3ef6...0c820bc7'        / Signature                     /
+      nil,                          / Detached payload              /
+      h'60a67454...cb77280e'        / Signature                     /
     ]
 )
 ~~~~
@@ -13,7 +13,7 @@
 {                                   / Protected                     /
   1: -35,                           / Algorithm                     /
   3: application/json,              / Content type                  /
-  4: h'b7882cba...a85d1e5d',        / Key identifier                /
+  4: h'0aaeabb4...3f5128d8',        / Key identifier                /
   13: {                             / CWT Claims                    /
     1: urn:example:123,             / Issuer                        /
     2: urn:example:456,             / Subject                       /

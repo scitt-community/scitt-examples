@@ -1,10 +1,10 @@
 ~~~~ cbor-diag
 {                                   / COSE Key                      /
   1: 2,                             / Type                          /
-  2: h'b7882cba...a85d1e5d',        / Identifier                    /
+  2: h'0aaeabb4...3f5128d8',        / Identifier                    /
   3: -35,                           / Algorithm                     /
   -1: 2,                            / Curve                         /
-  -2: h'123d93dd...2a0d683e',       / x public key component        /
-  -3: h'37628098...60077135',       / y public key component        /
+  -2: h'259c5657...a66e1a0d',       / x public key component        /
+  -3: h'a08db9ef...4cabc824',       / y public key component        /
 }
 ~~~~
