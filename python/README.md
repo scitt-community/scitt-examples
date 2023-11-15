@@ -42,7 +42,7 @@ python main.py \
 Create a cyclonedx sbom in xml format.
 
 ```sh
-cyclonedx-py -i  artifacts/requirements.txt -r --output artifacts/cyclonedx.xml
+cyclonedx-py -i  artifacts/requirements.txt -r --output artifacts/_manifest/cyclonedx.xml
 ```
 
 ### Make Transparent SBOM
