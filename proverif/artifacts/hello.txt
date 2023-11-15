@@ -1,0 +1,42 @@
+Process 0 (that is, the initial process):
+{1}out(c, RSA)
+
+-- Query not attacker(RSA[]) in process 0.
+Translating the process into Horn clauses...
+Completing...
+Starting query not attacker(RSA[])
+goal reachable: attacker(RSA[])
+
+Derivation:
+
+1. The message RSA[] may be sent to the attacker at output {1}.
+attacker(RSA[]).
+
+2. By 1, attacker(RSA[]).
+The goal is reached, represented in the following fact:
+attacker(RSA[]).
+
+
+A more detailed output of the traces is available with
+  set traceDisplay = long.
+
+out(c, ~M) with ~M = RSA at {1}
+
+The attacker has the message ~M = RSA.
+A trace has been found.
+RESULT not attacker(RSA[]) is false.
+-- Query not attacker(Cocks[]) in process 0.
+Translating the process into Horn clauses...
+Completing...
+Starting query not attacker(Cocks[])
+RESULT not attacker(Cocks[]) is true.
+
+--------------------------------------------------------------
+Verification summary:
+
+Query not attacker(RSA[]) is false.
+
+Query not attacker(Cocks[]) is true.
+
+--------------------------------------------------------------
+
