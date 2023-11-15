@@ -1,5 +1,0 @@
-private-*
-ledger.json
-
-*.spdx.json
-*.cbor
