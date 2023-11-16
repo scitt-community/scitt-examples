@@ -1,1 +1,0 @@
-rm artifact.manifest.spdx.json *.cbor ledger.json
