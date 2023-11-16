@@ -17,7 +17,7 @@ pip install cyclonedx-bom
 Create a cyclonedx sbom in xml format.
 
 ```sh
-cyclonedx-py -i  artifacts/requirements.txt -r --output artifacts/_manifest/cyclonedx.xml
+cyclonedx-py -i  artifacts/requirements.txt -r --output artifacts/_manifest/artifact.cdx.xml
 ```
 
 ### Make Transparent SBOM
