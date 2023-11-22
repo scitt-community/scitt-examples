@@ -1,8 +1,8 @@
 # Identity Documents as Receipts
 
-The simplest form of identity document is a signed public key.
-
-- unknown.
+> The simplest form of identity document is a signed public key.
+>
+> - *unknown.*
 
 By proving possession of a private key, where the corresponding public key is signed in an identity document,
 the identity associated with the public key can be authenticated.
