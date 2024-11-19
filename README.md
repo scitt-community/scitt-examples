@@ -1,23 +1,11 @@
 
-
 # SCITT Examples
 
-A collection of use case oriented examples for implementing the [IETF SCITT](https://scitt.io) drafts
+> ## ⚠️This Repository Has Been Archived and Is No Longer Maintained. ⚠️
 
-## Use Cases
+For current info, please see:
 
-A collection of use cases, with examples
+- [IETF SCITT Working Group](https://datatracker.ietf.org/wg/scitt/about/)
+- [SCITT Implementations](https://scitt.io/implementations.html)
 
-<!-- replace the below lines and assocated files when adding the first example -->
-
-## [Use Case 1](./use-case-1-examples/README.md)
-
-TODO: Template to model after [cose-wg/Examples](https://github.com/cose-wg/Examples/)
-
-### Generating and Signing an SPDX SBOM
-
-- [nodejs](./nodejs)
-
-### Generating and Signing a CycloneDX SBOM
-
-- [python](./python)
+[Pre-archived content](https://github.com/scitt-community/scitt-examples/blob/pre-archived/README.md)
