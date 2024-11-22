@@ -1,1 +1,0 @@
-rm artifact.manifest.cyclonedx.xml *.cbor ledger.json
