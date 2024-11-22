@@ -1,21 +1,11 @@
 
-
 # SCITT Examples
 
-A collection of use case oriented examples for implementing the [IETF SCITT](https://scitt.io) drafts
+> ## ⚠️This Repository Has Been Archived and Is No Longer Maintained. ⚠️
 
-## Use Cases
+For current info, please see:
 
-A collection of use cases, with examples
+- [IETF SCITT Working Group](https://datatracker.ietf.org/wg/scitt/about/)
+- [SCITT Implementations](https://scitt.io/implementations.html)
 
-### Generating and Signing an SPDX SBOM
-
-- [nodejs](./nodejs)
-
-### Generating and Signing a CycloneDX SBOM
-
-- [python](./python)
-
-### Producing Transparent Formal Verification Results
-
-- [proverif](./proverif)
+[Pre-archived content](https://github.com/scitt-community/scitt-examples/blob/pre-archived/README.md)
